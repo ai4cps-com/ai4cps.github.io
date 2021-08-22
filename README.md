@@ -1,39 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome to my GitHub Page
+Hello, my name is Nemanja Hranisavljevic and I am a research assistent at Fraunhofer IOSB-INA. 
+
+My research is focused on learning hybrid behavioral models from historical data in the domain of cyber-physical production systems. The main studied idea is discretization of continuous behavior using deep neural networks as proposed in DENTA algorithm: 
+[Discretization of hybrid CPPS data into timed automaton using restricted Boltzmann machines (2020)](http://www.sciencedirect.com/science/article/pii/S0952197620301986)
 
 [Pesmice](https://nemanjahrane.github.io/decije)
 
-You can use the [editor on GitHub](https://github.com/nemanjahrane/my-work/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nemanjahrane/my-work/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
