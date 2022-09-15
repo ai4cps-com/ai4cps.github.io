@@ -19,7 +19,7 @@ Currently I am working on a framework for simulation/data generation and model l
 - [2016-2018] PhD candidate at the Insitute Industrial IT [inIT](www.init-owl.de) in Lemgo, Germany
 - [2018-2023] Reseach Associate at [Fraunhofer IOSB-INA](https://www.iosb-ina.fraunhofer.de/) in Lemgo
   - In parallel a PhD candidate at [Helmut Schmidt University](https://www.hsu-hh.de/imb/team) in Hamburg
-- [2023 hopefully] achieved PhD with the tile "Learning Dynamics of Production Systems using Deep Neural Networks"
+- [2023 hopefully] achieved PhD with the title "Learning Hybrid Dynamics of Production Systems using Deep Neural Networks"
 
 ### My research and industrial (transfer) projects:
 - Process optimization with [eBZ GmbH](https://www.ebzgmbh.de/)
