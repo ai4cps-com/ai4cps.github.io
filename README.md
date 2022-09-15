@@ -20,5 +20,10 @@ Currently I am working on a framework for simulation/data generation and model l
   - In parallel a PhD candidate at [Helmut Schmidt University](https://www.hsu-hh.de/imb/team) in Hamburg
 - [2023 hopefully] achieved PhD with the topic ....
 
-
-
+### My publications:
+- <div class="csl-entry">Westermann, T., Hranisavljevic, N., &#38; Fay, A. (2022). <i>Accessing and Interpreting OPC UA Event Traces based on Semantic Process Descriptions</i>. http://arxiv.org/abs/2207.12252</div>
+- <div class="csl-entry">Hranisavljevic, N., Maier, A., &#38; Niggemann, O. (2020). Discretization of hybrid CPPS data into timed automaton using restricted Boltzmann machines. <i>Engineering Applications of Artificial Intelligence</i>, <i>95</i>, 103826. https://doi.org/https://doi.org/10.1016/j.engappai.2020.103826</div>
+- <div class="csl-entry">Eiteneuer, B., Hranisavljevic, N., &#38; Niggemann, O. (2019). Dimensionality Reduction and Anomaly Detection for CPPS Data using Autoencoder. <i>20th IEEE International Conference on Industrial Technology</i>, <i>2019-Febru</i>. https://doi.org/10.1109/ICIT.2019.8755116</div>
+- <div class="csl-entry">Niggemann, O., Biswas, G., Kinnebrew, J. S., Hranisavljevic, N., &#38; Bunte, A. (2020). KonzeptualisierungKonzeptualisierung als Kernfrage des Maschinellen Lernens in der Produktion. In M. ten Hompel, B. Vogel-Heuser, &#38; T. Bauernhansl (Eds.), <i>Handbuch Industrie 4.0: Produktion, Automatisierung und Logistik</i> (pp. 1–19). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-45537-1_73-2</div>
+- <div class="csl-entry">Wunderlich, P., &#38; Hranisavljevic, N. (2019). Comparison of different probabilistic graphical models as causal models in alarm flood reduction. <i>IEEE International Conference on Industrial Informatics (INDIN)</i>, <i>2019-July</i>. https://doi.org/10.1109/INDIN41052.2019.8972251</div>
+- <div class="csl-entry">Hranisavljevic, N., Niggemann, O., &#38; Maier, A. (2016, October). A Novel Anomaly Detection Algorithm for Hybrid Production Systems based on Deep Learning and Timed Automata. <i>International Workshop on the Principles of Diagnosis (DX)</i>. https://arxiv.org/abs/2010.15415</div>
