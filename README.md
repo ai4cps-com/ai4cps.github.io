@@ -1,4 +1,4 @@
-## Welcome to Nemanja's GitHub Page
+### About me
 Hello, my name is Nemanja Hranisavljevic and I am a research associate at [Fraunhofer IOSB-INA](https://www.iosb-ina.fraunhofer.de/). 
 You can reach me on [nemanja.hranisavljevic@iosb-ina.fraunhofer.de](mailto:nemanja.hranisavljevic@iosb-ina.fraunhofer.de).
 
