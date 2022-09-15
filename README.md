@@ -9,9 +9,10 @@ My research is focused on learning hybrid behavioral models from historical data
 Currently I am working on a framework for simulation/data generation and model learning of cyber-physical systems [time4cps](). It will be published in the next months.
 
 
-My portfolio:
-Studied Computer Sciences and Automation at [Faculty of Technical Sciences](http://www.ftn.uns.ac.rs/), University of Novi Sad, Serbia.
-Finished with the student award: 
+### My portfolio:
+
+- Studied Computer Sciences and Automation at [Faculty of Technical Sciences](http://www.ftn.uns.ac.rs/), University of Novi Sad, Serbia.
+    Finished with the student award ![alt text](UNS_povelja-Najboljem_diplomiranom_studentu.jpeg "Honer by University of Novi Sad as one of the best graduated students in the year")
 
 
 
