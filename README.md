@@ -23,7 +23,7 @@ Currently I am working on a framework for simulation/data generation and model l
 
 ### My research and industrial (transfer) projects:
 - Process optimization with [eBZ GmbH](https://www.ebzgmbh.de/)
-- Root cause analysis/diagnosis with [Arvato Systems](https://www.arvato-systems.de/)
+- Root-cause analysis/diagnosis in the pharma sector
 - Process optimization 2 with [eBZ GmbH](https://www.ebzgmbh.de/)
 - Research project [Time4CPS](https://www.iosb-ina.fraunhofer.de/en/divisions/Machine-Learning/Research-topics-and-projects/Project-Time4CPS-Time-for-Cyber-Physical-Systems.html)
 - [KI Martkplatz](https://ki-marktplatz.com/) 
