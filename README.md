@@ -1,4 +1,7 @@
-### AI4CPS (coming soon)
+### AI4CPS (Artificial Intelligence for Cyber-Physical Systems) 
+###(coming soon)
+
+
 Hello, my name is Nemanja Hranisavljevic and I am a currently a research associate at [Fraunhofer IOSB-INA](https://www.iosb-ina.fraunhofer.de/) in Lemgo and a PhD candidate at [HSU University](https://www.hsu-hh.de/imb/team) in Hamburg.
 You can reach me on [nemanja.hran@gmail.com](mailto:nemanja.hran@gmail.com).
 
