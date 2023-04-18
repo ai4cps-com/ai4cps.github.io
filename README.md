@@ -1,8 +1,9 @@
-### About me
-Hello, my name is Nemanja Hranisavljevic and I am a research associate at [Fraunhofer IOSB-INA](https://www.iosb-ina.fraunhofer.de/). 
-You can reach me on [nemanja.hranisavljevic@iosb-ina.fraunhofer.de](mailto:nemanja.hranisavljevic@iosb-ina.fraunhofer.de).
+### AI4CPS (coming soon)
+Hello, my name is Nemanja Hranisavljevic and I am a currently a research associate at [Fraunhofer IOSB-INA](https://www.iosb-ina.fraunhofer.de/) in Lemgo and a PhD candidate at [HSU University](https://www.hsu-hh.de/imb/team) in Hamburg.
+You can reach me on [nemanja.hran@gmail.com](mailto:nemanja.hran@gmail.com).
 
-My research is focused on learning hybrid dynamical models from historical data in the domain of cyber-physical production systems. The main studied idea is discretization of continuous behavior using deep neural networks as proposed in DENTA algorithm: 
+My research is focused on learning hybrid dynamical models from historical data in the domain of cyber-physical production systems.
+The main studied idea is extraction of discrete automata models from complex data using deep neural networks as proposed in DENTA algorithm:
 [Discretization of hybrid CPPS data into timed automaton using restricted Boltzmann machines (2020)](http://www.sciencedirect.com/science/article/pii/S0952197620301986)
 
 ### My GitHub repositories
@@ -10,26 +11,26 @@ My research is focused on learning hybrid dynamical models from historical data 
 Currently I am working on a framework for simulation/data generation and model learning of cyber-physical systems [time4cps](). It will be published in the next months.
 
 
-### My work and education:
+### My jobs and education:
 
 - [2008-2013] Studied Computer Sciences and Automation at [Faculty of Technical Sciences](http://www.ftn.uns.ac.rs/), University of Novi Sad, Serbia.
   - Finished Master Degree in the field of Automation and Control Engineering with the best student award
 - [2013-2015] Worked at the Faculty of Technical Sciences as an Assistent of a Professor on multiple courses including "Modeling and Simulation"
-  - Worked on projects for [Schneider Electric DMS NS](www.schneider-electric-dms.com) from Novi Sad in the data integration group responsible for integration of customer information models of electrical grids into the extended CIM industrial standard. 
-- [2016-2018] PhD candidate at the Insitute Industrial IT [inIT](www.init-owl.de) in Lemgo, Germany
-- [2018-2023] Reseach Associate at [Fraunhofer IOSB-INA](https://www.iosb-ina.fraunhofer.de/) in Lemgo
+  - Worked on projects for [Schneider Electric DMS NS](www.schneider-electric-dms.com) from Novi Sad in the data integration group responsible for integration of customer information models of electrical grids into the extended CIM industrial standard.
+- [2016-2018] PhD candidate at the Institute Industrial IT [inIT](www.init-owl.de) in Lemgo, Germany
+- [2018-2023] Research Associate at [Fraunhofer IOSB-INA](https://www.iosb-ina.fraunhofer.de/) in Lemgo
   - In parallel a PhD candidate at [Helmut Schmidt University](https://www.hsu-hh.de/imb/team) in Hamburg
 - [2023 hopefully] achieved PhD with the title "Learning Hybrid Dynamics of Production Systems using Deep Neural Networks"
 
-### My research and industrial (transfer) projects:
+### My research and industrial projects:
+- Research within the Research Center Machine Learning [fzml.fraunhofer.de][fzml.fraunhofer.de] initiative
 - Process optimization with [eBZ GmbH](https://www.ebzgmbh.de/)
-- Root-cause analysis/diagnosis in the pharma sector
-- Process optimization 2 with [eBZ GmbH](https://www.ebzgmbh.de/)
+- Root-cause analysis/diagnosis in the pharmaceutical sector
 - Research project [Time4CPS](https://www.iosb-ina.fraunhofer.de/en/divisions/Machine-Learning/Research-topics-and-projects/Project-Time4CPS-Time-for-Cyber-Physical-Systems.html)
-- [KI Martkplatz](https://ki-marktplatz.com/) 
-- [KI Reallabor](https://www.iosb-ina.fraunhofer.de/de/geschaeftsbereiche/maschinelles-lernen/next-level-ml/ki-reallabor.html)
+- Predictive maintenance use case within [KI Martkplatz](https://ki-marktplatz.com/) project
 
 ### My publications:
+- <div class="csl-entry">Hranisavljevic, N., Westermann, T., Kroke, P., &#38; Waschkies, C. (2023). Using ML-based Models in Simulation of CPPSs: A Case Study of Smart Meter Production. <i>ML4CPS</i>.</div>
 - <div class="csl-entry">Westermann, T., Hranisavljevic, N., &#38; Fay, A. (2022). <i>Accessing and Interpreting OPC UA Event Traces based on Semantic Process Descriptions</i>. http://arxiv.org/abs/2207.12252</div>
 - <div class="csl-entry">Hranisavljevic, N., Maier, A., &#38; Niggemann, O. (2020). Discretization of hybrid CPPS data into timed automaton using restricted Boltzmann machines. <i>Engineering Applications of Artificial Intelligence</i>, <i>95</i>, 103826. https://doi.org/https://doi.org/10.1016/j.engappai.2020.103826</div>
 - <div class="csl-entry">Eiteneuer, B., Hranisavljevic, N., &#38; Niggemann, O. (2019). Dimensionality Reduction and Anomaly Detection for CPPS Data using Autoencoder. <i>20th IEEE International Conference on Industrial Technology</i>, <i>2019-Febru</i>. https://doi.org/10.1109/ICIT.2019.8755116</div>
