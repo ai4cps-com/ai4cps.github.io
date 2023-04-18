@@ -17,9 +17,9 @@ Currently I am working on a framework for simulation/data generation and model l
 - [2018-2023] Research Associate at [Fraunhofer IOSB-INA](https://www.iosb-ina.fraunhofer.de/) in Lemgo;
     - In parallel a PhD candidate at [Helmut Schmidt University](https://www.hsu-hh.de/imb/team) in Hamburg;
 - [2016-2018] PhD candidate at the Institute Industrial IT [inIT](www.init-owl.de) in Lemgo, Germany;
-- [2013-2015] Worked at the Faculty of Technical Sciences as an Assistant of a Professor on multiple courses including "Modeling and Simulation";
-    - Worked on projects for [Schneider Electric DMS NS](www.schneider-electric-dms.com) from Novi Sad in the data integration group responsible for integration of customer information models of electrical grids into the extended CIM industrial standard;
-- [2008-2013] Studied Computer Sciences and Automation at [Faculty of Technical Sciences](http://www.ftn.uns.ac.rs/), University of Novi Sad, Serbia;
+- [2013-2015] Worked at the [Faculty of Technical Sciences](http://www.ftn.uns.ac.rs/) as an Assistant of a Professor on multiple courses including "Modeling and Simulation";
+    - Worked on projects for [Schneider Electric DMS NS](www.schneider-electric-dms.com) from Novi Sad in the data integration group responsible for integration of customer information models of electrical grids into the extended [CIM](https://en.wikipedia.org/wiki/Common_Information_Model_(electricity)) industrial standard;
+- [2008-2013] Studied Computer Sciences and Automation at Faculty of Technical Sciences, University of Novi Sad, Serbia;
     - Finished Master Degree in the field of Automation and Control Engineering with the best student award;
 
 
