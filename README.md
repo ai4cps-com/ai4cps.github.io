@@ -23,7 +23,7 @@ Currently I am working on a framework for simulation/data generation and model l
 - [2023 hopefully] achieved PhD with the title "Learning Hybrid Dynamics of Production Systems using Deep Neural Networks"
 
 ### My research and industrial projects:
-- Research within the Research Center Machine Learning [fzml.fraunhofer.de][fzml.fraunhofer.de] initiative
+- Research within the Fraunhofer's [Research Center Machine Learning](fzml.fraunhofer.de)
 - Process optimization with [eBZ GmbH](https://www.ebzgmbh.de/)
 - Root-cause analysis/diagnosis in the pharmaceutical sector
 - Research project [Time4CPS](https://www.iosb-ina.fraunhofer.de/en/divisions/Machine-Learning/Research-topics-and-projects/Project-Time4CPS-Time-for-Cyber-Physical-Systems.html)
