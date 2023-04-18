@@ -18,17 +18,17 @@ Currently I am working on a framework for simulation/data generation and model l
     - In parallel a PhD candidate at [Helmut Schmidt University](https://www.hsu-hh.de/imb/team) in Hamburg;
 - [2016-2018] PhD candidate at the Institute Industrial IT [inIT](www.init-owl.de) in Lemgo, Germany;
 - [2013-2015] Worked at the Faculty of Technical Sciences as an Assistant of a Professor on multiple courses including "Modeling and Simulation";
-- Worked on projects for [Schneider Electric DMS NS](www.schneider-electric-dms.com) from Novi Sad in the data integration group responsible for integration of customer information models of electrical grids into the extended CIM industrial standard;
+    - Worked on projects for [Schneider Electric DMS NS](www.schneider-electric-dms.com) from Novi Sad in the data integration group responsible for integration of customer information models of electrical grids into the extended CIM industrial standard;
 - [2008-2013] Studied Computer Sciences and Automation at [Faculty of Technical Sciences](http://www.ftn.uns.ac.rs/), University of Novi Sad, Serbia;
     - Finished Master Degree in the field of Automation and Control Engineering with the best student award;
 
 
 ### My research and industrial projects:
-- Research within the Fraunhofer's [Research Center Machine Learning](fzml.fraunhofer.de)
-- Process optimization with [eBZ GmbH](https://www.ebzgmbh.de/)
-- Root-cause analysis/diagnosis in the pharmaceutical sector
-- Research project [Time4CPS](https://www.iosb-ina.fraunhofer.de/en/divisions/Machine-Learning/Research-topics-and-projects/Project-Time4CPS-Time-for-Cyber-Physical-Systems.html)
-- Predictive maintenance use case within [KI Martkplatz](https://ki-marktplatz.com/) project
+- Research within the Fraunhofer's [Research Center Machine Learning](fzml.fraunhofer.de);
+- Process optimization with [eBZ GmbH](https://www.ebzgmbh.de/);
+- Root-cause analysis/diagnosis in the pharmaceutical sector;
+- Research project [Time4CPS](https://www.iosb-ina.fraunhofer.de/en/divisions/Machine-Learning/Research-topics-and-projects/Project-Time4CPS-Time-for-Cyber-Physical-Systems.html);
+- Predictive maintenance use case within [KI Martkplatz](https://ki-marktplatz.com/) project.
 
 ### My publications:
 - <div class="csl-entry">Hranisavljevic, N., Westermann, T., Kroke, P., &#38; Waschkies, C. (2023). Using ML-based Models in Simulation of CPPSs: A Case Study of Smart Meter Production. <i>ML4CPS</i>.</div>
