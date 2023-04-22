@@ -7,7 +7,8 @@ The doors got opened for the newest models and algorithms from the field of arti
 The large potential and significance of this development can be seen in the political and economical decisions around the world, supposed to stimulate the ongoing 'fourth industrial revolution' (Industry 4.0).
 
 
-![alt text](fig_ai4cps.png)
+<img src="fig_ai4cps.png"  width="300">
+
 *Example toy CPPS*
 
 
