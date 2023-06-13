@@ -19,7 +19,7 @@ The large potential and significance of this development can be seen in the poli
 ### About the creator
 
 Hello, my name is Nemanja Hranisavljevic and I am a currently a research associate at [Fraunhofer IOSB-INA](https://www.iosb-ina.fraunhofer.de/) in Lemgo and a PhD candidate at [HSU University](https://www.hsu-hh.de/imb/team) in Hamburg.
-You can reach me on [nemanja.hran@gmail.com](mailto:nemanja.hran@gmail.com).
+You can reach me on [contact@ai4cps.com](mailto:contact@ai4cps.com).
 
 My research is focused on learning hybrid dynamical models from historical data in the domain of cyber-physical production systems.
 The main studied idea is extraction of discrete automata models from complex data using deep neural networks as proposed in DENTA algorithm:
