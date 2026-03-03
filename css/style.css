@@ -6,6 +6,7 @@
     --dark-2: #1e293b;
 
     --primary: #00c8ff;
+    --primary-dark: #00a8d6;
 
     --border: #e6e9ef;
 
@@ -173,21 +174,6 @@ nav a:hover {
     align-items: center;     /* horizontal centering */
 }
 
-/* keep your existing .hero-support; this keeps it at the bottom */
-.hero-support {
-    margin-top: auto;
-    padding-top: 18px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-
-    color: rgba(255, 255, 255, 0.85);
-    font-size: 0.95rem;
-}
-
 .hero h1 {
     font-size: 46px;
     margin-bottom: 20px;
@@ -232,12 +218,24 @@ nav a:hover {
 
 .hero-support-text {
     opacity: 0.9;
-    max-width: 70ch;
+    max-width: 90ch;
+    font-size: 0.7rem;
 }
 
 .section {
     padding: 110px 0;
     text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 70px; /* tweak: 12–28px */
+    line-height: 1.2;
+}
+
+/* optional: if a subtitle follows, you can make spacing tighter */
+.section h2 + .section-subtitle {
+    margin-top: -6px;   /* optional */
+    margin-bottom: 22px; /* optional */
 }
 
 .section.dark {
@@ -253,7 +251,7 @@ nav a:hover {
 }
 
 .grid-3 {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .grid-2 {
@@ -487,4 +485,258 @@ form textarea {
     .video-wrapper video {
         height: 300px;
     }
+}
+
+.text-link {
+    color: inherit;
+    text-decoration: underline;
+    /*font-weight: 600;*/
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+/* Left-to-right pipeline (desktop) */
+.approach-pipeline {
+    margin-top: 60px;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    align-items: stretch;
+}
+
+.pipeline-step {
+    position: relative;
+    padding: 28px 26px;
+
+    border-radius: var(--radius);
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    text-align: left;
+}
+
+.pipeline-step h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pipeline-step p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* Number badge */
+.pipeline-badge {
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 700;
+    color: #001018;
+    background: var(--primary);
+}
+
+/* Connector line + arrow to the next step (left -> right) */
+.pipeline-step:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -22px;
+
+    width: 22px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.35);
+    transform: translateY(-50%);
+}
+
+.pipeline-step:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -28px;
+
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 9px solid rgba(255, 255, 255, 0.35);
+    transform: translateY(-50%);
+}
+
+/* Mobile: stack top -> bottom with vertical connectors */
+@media (max-width: 900px) {
+    .approach-pipeline {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .pipeline-step:not(:last-child)::after {
+        top: auto;
+        bottom: -12px;
+        right: 50%;
+
+        width: 2px;
+        height: 12px;
+        transform: translateX(50%);
+    }
+
+    .pipeline-step:not(:last-child)::before {
+        top: auto;
+        bottom: -20px;
+        right: 50%;
+
+        border: none;
+        width: 0;
+        height: 0;
+
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 9px solid rgba(255, 255, 255, 0.35);
+
+        transform: translateX(50%);
+    }
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.team-linkedin img {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+    opacity: 0.8;
+    border-radius: 0;
+    border: none;
+}
+
+.team-linkedin img:hover {
+    opacity: 1;
+}
+
+.team-name {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* remove if you want left aligned */
+    gap: 8px;
+}
+
+.team-name h3 {
+    margin: 0;
+}
+
+.team-linkedin img:hover {
+    opacity: 1;
+}
+
+.demo-intro {
+    max-width: 620px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+}
+
+.demo-section textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.self {
+    color: white;
+}
+
+.selfx-x {
+    color: var(--primary);
+    font-weight: 900;
+}
+
+/* variant for light backgrounds */
+.self.dark {
+    color: #444;
+}
+
+/* shared button style */
+.hero-buttons a {
+    display: inline-block;
+    padding: 12px 26px;
+    /*border-radius: 6px;*/
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+/* primary button */
+.btn-primary {
+    background: var(--primary);
+    color: white;
+    border: 2px solid var(--primary);
+}
+
+/* hover effect */
+.btn-primary:hover {
+    background: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+.hero-buttons a:hover {
+    transform: translateY(-2px);
+}
+
+.hero-buttons a:hover {
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.demo-note {
+    margin-top: 18px;
+    font-size: 0.9rem;
+    color: #777;
+    line-height: 1.4;
+}
+
+.card-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--primary);
+    border: 2px dashed rgba(255,255,255,0.2);
+}
+
+.team-collaboration {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.team-collab-text {
+    max-width: 650px;
+    margin: 0 auto 20px auto;
+    opacity: 0.85;
+    line-height: 1.6;
+}
+
+.team-collab-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.team-collab-logos img {
+    height: 40px;
+    opacity: 0.8;
+    filter: grayscale(100%);
+    transition: opacity 0.2s ease, filter 0.2s ease;
+}
+
+.team-collab-logos img:hover {
+    opacity: 1;
+    filter: grayscale(0%);
 }
