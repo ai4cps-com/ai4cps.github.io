@@ -243,19 +243,25 @@ nav a:hover {
     color: #ffffff;
 }
 
-.grid-3,
+.grid-cases,
 .grid-2 {
     display: grid;
-    gap: 40px;
+    gap: 60px;
     margin-top: 60px;
 }
 
-.grid-3 {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+.grid-cases {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .grid-2 {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.case:last-child {
+    grid-column: span 2;
+    justify-self: center;
+    max-width: 400px;
 }
 
 .card,
@@ -350,8 +356,9 @@ form textarea {
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(240px, 1fr));
-    gap: 40px;
+    grid-template-columns: repeat(2, minmax(200px, 400px));
+    justify-content: center;
+    gap: 60px;
     margin-top: 60px;
     align-items: start;
 }
@@ -381,7 +388,7 @@ form textarea {
     object-fit: cover;
     display: block;
     margin: 0 auto 18px;
-    border: 1px solid var(--border);
+    border: 1px solid black;
 }
 
 .team-member h3 {
@@ -500,17 +507,15 @@ form textarea {
 /* Left-to-right pipeline (desktop) */
 .approach-pipeline {
     margin-top: 60px;
-
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 22px;
+    gap: 60px;
     align-items: stretch;
 }
 
 .pipeline-step {
     position: relative;
     padding: 28px 26px;
-
     border-radius: var(--radius);
     background: rgba(255, 255, 255, 0.06);
     border: 1px solid rgba(255, 255, 255, 0.12);
@@ -547,10 +552,10 @@ form textarea {
     content: "";
     position: absolute;
     top: 50%;
-    right: -22px;
+    right: -50px;
 
-    width: 22px;
-    height: 2px;
+    width: 50px;
+    height: 4px;
     background: rgba(255, 255, 255, 0.35);
     transform: translateY(-50%);
 }
@@ -559,7 +564,7 @@ form textarea {
     content: "";
     position: absolute;
     top: 50%;
-    right: -28px;
+    right: -60px;
 
     width: 0;
     height: 0;
@@ -729,14 +734,61 @@ form textarea {
     flex-wrap: wrap;
 }
 
+
+
 .team-collab-logos img {
     height: 40px;
     opacity: 0.8;
-    filter: grayscale(100%);
     transition: opacity 0.2s ease, filter 0.2s ease;
+}
+
+.team-collab-logos img.logo-hsu {
+    height: 65px;
+    filter: brightness(1.4);
 }
 
 .team-collab-logos img:hover {
     opacity: 1;
-    filter: grayscale(0%);
+}
+
+.self {
+    display: inline-block;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.selfx-x {
+    color: var(--primary);
+}
+
+a:hover .self {
+    transform: translateY(-2px);
+}
+
+a:hover .selfx-x {
+    color: var(--primary-dark);
+}
+
+.topbar {
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 0;
+}
+
+.topbar-content {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topbar-contact span {
+    margin-left: 20px;
+}
+
+.topbar-contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.topbar-contact a:hover {
+    opacity: 0.8;
 }
