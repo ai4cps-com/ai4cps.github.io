@@ -175,8 +175,8 @@ nav a:hover {
 }
 
 .hero h1 {
-    font-size: 46px;
-    margin-bottom: 20px;
+    font-size: 42px;
+    margin: 28px auto 20px;
 }
 
 .hero p {
