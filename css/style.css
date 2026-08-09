@@ -179,6 +179,16 @@ nav a:hover {
     margin: 28px auto 20px;
 }
 
+.hero .disclaimer {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.60);
+    margin: 8px auto 12px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.2px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.12);
+}
+
 .hero p {
     max-width: 750px;
     margin: 0 auto 30px;
