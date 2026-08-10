@@ -752,6 +752,10 @@ form textarea {
     transition: opacity 0.2s ease, filter 0.2s ease;
 }
 
+.team-collab-logos img.logo-dtf {
+    height: 65px;
+}
+
 .team-collab-logos img.logo-hsu {
     height: 65px;
     filter: brightness(1.4);
