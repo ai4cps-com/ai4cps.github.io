@@ -3,5 +3,9 @@
 * Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-modern-business/blob/master/LICENSE)
 */
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+// Close the responsive navigation after selecting a destination.
+document.querySelectorAll('.mobile-menu a').forEach((link) => {
+    link.addEventListener('click', () => {
+        link.closest('.mobile-menu')?.removeAttribute('open');
+    });
+});
