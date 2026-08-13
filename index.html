@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="alternate" hreflang="de" href="https://ai4cps.com/de/">
-<link rel="alternate" hreflang="en" href="https://ai4cps.com/">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <title>AI4CPS – Industrial AI Solutions</title>
+    <meta name="description" content="AI4CPS develops practical AI solutions and software for industrial and cyber-physical systems.">
+    <link rel="canonical" href="https://ai4cps.com/">
+    <link rel="alternate" hreflang="en" href="https://ai4cps.com/">
+    <link rel="alternate" hreflang="de" href="https://ai4cps.com/de/">
+    <link rel="alternate" hreflang="x-default" href="https://ai4cps.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AI4CPS">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="de_DE">
+    <meta property="og:title" content="AI4CPS – Industrial AI Solutions">
+    <meta property="og:description" content="Practical AI solutions and software for industrial and cyber-physical systems.">
+    <meta property="og:url" content="https://ai4cps.com/">
+    <meta property="og:image" content="https://ai4cps.com/assets/selfx-screenshot.png">
+    <meta property="og:image:alt" content="SelfX industrial AI software interface">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI4CPS – Industrial AI Solutions">
+    <meta name="twitter:description" content="Practical AI solutions and software for industrial and cyber-physical systems.">
+    <meta name="twitter:image" content="https://ai4cps.com/assets/selfx-screenshot.png">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "AI4CPS",
+        "url": "https://ai4cps.com/",
+        "logo": "https://ai4cps.com/assets/logo-simplified.svg",
+        "email": "contact@ai4cps.com",
+        "telephone": "+49 177 8717913",
+        "sameAs": ["https://www.linkedin.com/company/ai4cps/"]
+    }
+    </script>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!--    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">-->
@@ -36,6 +64,8 @@
             <a href="#approach">Approach</a>
             <a href="#cases">Case Studies</a>
             <a href="#video"><span class="self">Self<span class="selfx-x">X</span></span></a>
+            <a href="#team">Team</a>
+            <a href="#open-source">Open Source</a>
             <a href="#demo" class="btn-outline">Request a Demo</a>
         </nav>
         <div class="lang-switch">
@@ -53,6 +83,8 @@
                 <a href="#approach">Approach</a>
                 <a href="#cases">Case Studies</a>
                 <a href="#video">SelfX</a>
+                <a href="#team">Team</a>
+                <a href="#open-source">Open Source</a>
                 <a href="#demo" class="btn-outline">Request a Demo</a>
                 <div class="lang-switch">
                     <span class="active-language" aria-current="page">EN</span> |
@@ -284,22 +316,12 @@ Using <a href="#video" class="text-link"><span class="self dark">Self<span class
 See how SelfX analyzes industrial data streams, detects inefficiencies,
 and provides transparent explanations for process optimization.
 </p>
-
         <div class="video-wrapper">
             <video controls autoplay muted loop playsinline width="100%">
                 <source src="assets/selfx_5s_video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
-        <!--        <div class="video-wrapper">-->
-        <!--            &lt;!&ndash; Option A: YouTube Embed &ndash;&gt;-->
-        <!--            <iframe-->
-        <!--                src="https://www.youtube.com/embed/YOUR_VIDEO_ID"-->
-        <!--                title="SelfX Software Demo"-->
-        <!--                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"-->
-        <!--                allowfullscreen>-->
-        <!--            </iframe>-->
-        <!--        </div>-->
     </div>
 </section>
 
@@ -374,7 +396,28 @@ and provides transparent explanations for process optimization.
     </div>
 </section>
 
-<section id="demo" class="section demo-section">
+<section id="open-source" class="section open-source-section">
+    <div class="container">
+        <h2>Open Source</h2>
+        <p class="open-source-intro">We actively maintain open-source tools that advance AI for cyber-physical systems.</p>
+        <div class="open-source-grid">
+            <a class="open-source-card" href="https://github.com/ai4cps-com/ml4cps" target="_blank" rel="noopener noreferrer">
+                <span class="open-source-label">GitHub Repository</span>
+                <h3>ml4cps</h3>
+                <p>A Python package for learning and analysing hybrid dynamical systems, with a focus on cyber-physical systems.</p>
+                <span class="open-source-link">View on GitHub <span aria-hidden="true">↗</span></span>
+            </a>
+            <a class="open-source-card" href="https://github.com/ai4cps-com/selfx-oss" target="_blank" rel="noopener noreferrer">
+                <span class="open-source-label">GitHub Repository</span>
+                <h3>selfx-oss</h3>
+                <p>A Python framework for building machine-learning and AI applications for cyber-physical systems.</p>
+                <span class="open-source-link">View on GitHub <span aria-hidden="true">↗</span></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="demo" class="section demo-section dark">
     <div class="container">
         <h2>Request a Demo</h2>
         <p class="demo-intro">
@@ -387,6 +430,7 @@ explains root causes, and helps optimize industrial processes.
             <input type="text" name="company" placeholder="Company Name" required>
             <input type="email" name="email" placeholder="Email Address" required>
             <textarea name="message" placeholder="Describe your challenge..." required></textarea>
+            <label class="privacy-consent"><input type="checkbox" required> I have read the <a href="privacy.html">Privacy Policy</a>.</label>
             <button type="submit" class="btn-primary">Submit</button>
         </form>
 
@@ -403,6 +447,7 @@ explains root causes, and helps optimize industrial processes.
 <footer class="footer">
     <div class="container">
         <p>© 2026 AI4CPS – Artificial Intelligence for Cyber-Physical Systems</p>
+        <p class="footer-links"><a class="footer-linkedin" href="https://www.linkedin.com/company/ai4cps/" target="_blank" rel="noopener noreferrer"><img src="assets/linkedin.svg" alt="" aria-hidden="true">Follow us on LinkedIn</a><span aria-hidden="true">·</span><a href="legal-notice.html">Legal Notice</a><span aria-hidden="true">·</span><a href="privacy.html">Privacy Policy</a></p>
     </div>
 </footer>
 
