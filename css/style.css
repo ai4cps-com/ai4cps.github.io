@@ -1,4 +1,6 @@
 :root {
+    color-scheme: light only;
+
     --bg: #f7f9fc;
     --text: #1a1a1a;
 
@@ -28,6 +30,11 @@ body {
     color: var(--text);
     line-height: 1.6;
     scroll-behavior: smooth;
+}
+
+.section:not(.dark) {
+    background: var(--bg);
+    color: var(--text);
 }
 
 .container {
