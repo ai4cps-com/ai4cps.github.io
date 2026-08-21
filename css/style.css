@@ -375,9 +375,9 @@ nav a:hover {
 
 .solution-card-image {
     display: block;
-    width: 100%;
-    max-width: 420px;
-    height: 150px;
+    width: min(100%, 420px);
+    height: auto;
+    aspect-ratio: 16 / 9;
     margin: 0 auto 20px;
     object-fit: cover;
     border-radius: 12px;
