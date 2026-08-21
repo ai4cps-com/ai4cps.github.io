@@ -373,6 +373,17 @@ nav a:hover {
     transition: all 0.3s ease;
 }
 
+.solution-card-image {
+    display: block;
+    width: 100%;
+    height: 190px;
+    margin: 0 0 20px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    background: #e2e8f0;
+}
+
 .section.dark .card,
 .section.dark .case {
     background: var(--dark-2);
