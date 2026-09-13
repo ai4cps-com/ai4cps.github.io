@@ -42,10 +42,6 @@ section {
     margin: auto;
 }
 
-.max {
-    max-width: 800px;
-}
-
 header {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -59,6 +55,10 @@ video {
     top: 0;
     z-index: -1;
     object-fit: cover;
+}
+
+.dark-gradient {
+    background: radial-gradient(34.44% 60.53% at 65.1% 44.55%, rgba(20, 16, 80, 0.95) 0%, #020617 100%);
 }
 
 .logo-wrap {
@@ -977,9 +977,6 @@ header.desktop {
 #demo {
     padding-top: 40px;
     padding-bottom: 40px;
-    background: linear-gradient(0deg, #020617, #020617),
-        radial-gradient(39.72% 45.47% at 70.35% 45.95%, rgba(28, 23, 106, 0.95) 0%, #020617 100%);
-
 }
 
 #demo .title {
@@ -1076,7 +1073,7 @@ form input[type="text"],
 form input[type="email"] {
     width: 100%;
     margin-bottom: 24px;
-    padding: 14px 16px;
+    padding: 16px 16px;
     background: #FFFFFF;
     border: 1px solid #E2E8F0;
     border-radius: 8px;
@@ -1180,6 +1177,7 @@ form button svg {
     letter-spacing: 3px;
     vertical-align: middle;
     color: #FFFFFF;
+    opacity: .7;
 }
 
 .foot-wrap .logo-wrap {
@@ -1404,6 +1402,11 @@ form button svg {
 
     .hero__foot-wrap {
         justify-content: center;
+        font-size: 13px;
+    }
+
+    .hero__foot-wrap a {
+        font-size: 13px;
     }
 
     .hero__foot-wrap br {
@@ -1449,6 +1452,7 @@ form button svg {
 
     #capa .cards {
         gap: 32px;
+        justify-content: space-between;
     }
 
     #capa .cards .card {
@@ -1506,18 +1510,14 @@ form button svg {
         justify-content: space-between;
     }
 
-    #diagnosis-card .card__image-wrap {
-        max-width: 250px;
-    }
-
     #cases #auto-card,
     #cases #diagnosis-card {
-        width: 63%;
+        width: 60%;
     }
 
     #cases #scheduling-card,
     #cases #opt-card {
-        width: 33%;
+        width: 36%;
     }
 
     #cases #diagnosis-card {
@@ -1526,6 +1526,32 @@ form button svg {
 
     #cases #scheduling-card {
         order: 1;
+    }
+
+    #scheduling-card h3,
+    #auto-card h3,
+    #opt-card h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #scheduling-card p,
+    #auto-card p,
+    #opt-card p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #scheduling-card span[data-i18n="aiSchedulingDescHighlight"] {
+        font-weight: bold;
+        color: #41CCBF;
+    }
+
+    #scheduling-card .card__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 395px;
     }
 
     #cases #auto-card {
@@ -1537,13 +1563,25 @@ form button svg {
     }
 
     #auto-card .card__image-wrap {
-        max-width: 100px;
+        max-width: 80px;
         top: 30px;
         right: 30px;
     }
 
-    .card--case .card__content {
-        min-height: 270px;
+    #auto-card .card__content {
+        height: 250px;
+    }
+
+    #diagnosis-card .card__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 395px;
+    }
+
+    #diagnosis-card .card__image-wrap {
+        width: 270px;
+        max-width: unset;
     }
 
     #test .title {
@@ -1814,5 +1852,30 @@ form button svg {
 
     .hero__desc span {
         font-weight: bold;
+    }
+
+    .trust__contents {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #trust {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #trust .trust__content:first-child {
+        margin-bottom: 0;
+    }
+
+    #trust h3 {
+        padding-bottom: 32px;
+    }
+
+    .max {
+        max-width: 1280px;
+        margin: 0 auto;
     }
 }
