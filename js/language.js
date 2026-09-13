@@ -66,7 +66,8 @@ const translations = {
 
         testimonials: "TESTIMONIALS",
         trustedBy: "Trusted by Industry Leaders",
-        airbusTestimonial: "\"Using AI4CPS, we enhanced diagnostics across our space systems, achieving measurable improvements in safety and reliability.\"",
+        airbusTestimonial: "\"Das (K)ISS-Projekt hat unsere Raumfahrtdienstleistungen in den Bereichen Systemdiagnose und Rekonfiguration deutlich vorangebracht, wobei sich AI4CPS als vielversprechendes Spin-off entwickelt hat, um diese Fähigkeiten erfolgreich in breitere industrielle Anwendungen zu überführen.
+\"",
         maxMustermann: "Max Mustermann",
         projectLeadAirbus: "Project Lead, Airbus DC",
         ebzTestimonial: "\"With AI4CPS, we gained real-time insight into production KPIs and automated detection of operational issues.\"",
