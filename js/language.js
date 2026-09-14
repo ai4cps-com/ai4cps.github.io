@@ -38,7 +38,7 @@ const translations = {
         reportingVizDesc: "Advanced reporting, visualization, and LLM agents turn complex analysis into clear, actionable insights.",
         andMuchMore: "And much More",
         moreDescPrefix: "Access 30+ proven capabilities from our codebase—",
-        moreDescHighlight: "or get a tailored solution developed for your specific requirements.",
+        moreDescHighlight: "<b>or get a tailored solution developed for your specific requirements.</b>",
 
         product: "PRODUCT",
         ai4cpsPlatform: "AI4CPS Platform",
@@ -172,7 +172,7 @@ const translations = {
         reportingVizDesc: "Fortschrittliche Berichterstellung, Visualisierung und LLM-Agenten verwandeln komplexe Analysen in klare, umsetzbare Erkenntnisse.",
         andMuchMore: "Und vieles mehr",
         moreDescPrefix: "Greifen Sie auf über 30 bewährte Fähigkeiten aus unserer Codebasis zu—",
-        moreDescHighlight: "oder erhalten Sie eine maßgeschneiderte Lösung für Ihre spezifischen Anforderungen.",
+        moreDescHighlight: "<b>oder erhalten Sie eine maßgeschneiderte Lösung für Ihre spezifischen Anforderungen.</b>",
 
         product: "PRODUKT",
         ai4cpsPlatform: "AI4CPS Plattform",

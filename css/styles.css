@@ -8,6 +8,7 @@
     --color-primary: #4770B4;
     --color-secondary: #FDC971;
     --hero-mobile-height: 560px;
+    --hero-desktop-height: 680px;
 }
 
 * {
@@ -55,6 +56,10 @@ video {
     top: 0;
     z-index: -1;
     object-fit: cover;
+}
+
+#desktop-video {
+    display: none;
 }
 
 .dark-gradient {
@@ -125,7 +130,6 @@ header.desktop {
     font-size: 10px;
     line-height: 12px;
     letter-spacing: 2px;
-    backdrop-filter: blur(4px);
 }
 
 .chip .chip__text {
@@ -360,6 +364,8 @@ header.desktop {
 }
 
 .hero__foot-wrap a {
+    position: relative;
+    bottom: 2px;
     font-family: var(--font-primary);
     font-weight: 500;
     font-size: 9px;
@@ -368,6 +374,19 @@ header.desktop {
     vertical-align: middle;
     color: #fff;
     text-decoration: underline;
+}
+
+#demo {
+    overflow: hidden;
+}
+
+#demo-bg {
+    position: absolute;
+    top: 0;
+    right: -150px;
+    max-width: 400px;
+    transform: rotate(208deg);
+    opacity: .2;
 }
 
 #trust {
@@ -422,8 +441,6 @@ header.desktop {
     border-bottom: 1px solid #E2E8F0;
 }
 
-#capa .chip {}
-
 #capa .title {
     margin-bottom: 40px;
     text-align: center;
@@ -472,6 +489,10 @@ header.desktop {
 }
 
 .capa__more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
     margin-bottom: 60px;
     padding: 32px;
@@ -507,10 +528,6 @@ header.desktop {
     letter-spacing: 0px;
     color: #454545;
     opacity: .7;
-}
-
-.capa__more span {
-    font-weight: 700;
 }
 
 #product {
@@ -774,9 +791,46 @@ header.desktop {
 }
 
 #work {
+    position: relative;
     padding-top: 60px;
     padding-bottom: 60px;
     background: radial-gradient(34.44% 60.53% at 65.1% 44.55%, rgba(20, 16, 80, 0.95) 0%, #020617 100%);
+    overflow: hidden;
+}
+
+#work::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 170px;
+    width: 82%;
+    height: 90%;
+    background-image: url('../assets/how-we-work-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+
+    /* Standard property */
+    mask-image:
+        /* Left-to-Right Fade */
+        linear-gradient(to right, transparent 0%, rgba(20, 16, 80, 0.95) 70%, transparent 90%),
+        /* Top-to-Bottom Fade (starts showing at 40%, fades out at 70%) */
+        linear-gradient(to bottom, transparent 0%, rgba(20, 16, 80, 0.95) 70%, rgba(20, 16, 80, 0.95) 70%, transparent 100%);
+    mask-composite: intersect;
+
+    /* Safari & WebKit support */
+    -webkit-mask-image:
+        linear-gradient(to right, transparent 0%, rgba(20, 16, 80, 0.95) 70%, transparent 90%),
+        linear-gradient(to bottom, transparent 0%, rgba(20, 16, 80, 0.95) 70%, rgba(20, 16, 80, 0.95) 70%, transparent 100%);
+    -webkit-mask-composite: source-in;
+}
+
+#work-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: .1;
 }
 
 #work .title {
@@ -975,6 +1029,7 @@ header.desktop {
 }
 
 #demo {
+    position: relative;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -1877,5 +1932,54 @@ form button svg {
     .max {
         max-width: 1280px;
         margin: 0 auto;
+    }
+
+    .hero__gradient {
+        height: var(--hero-desktop-height);
+    }
+
+    .hero__content {
+        height: var(--hero-desktop-height);
+    }
+
+    #mobile-video {
+        display: none;
+    }
+
+    #desktop-video {
+        display: block;
+    }
+
+    #capa {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #team {
+        padding-top: 128px;
+        padding-bottom: 64px;
+    }
+
+    #open-source {
+        padding-top: 64px;
+        padding-bottom: 128px;
+    }
+
+    #product,
+    #cases,
+    #test,
+    #work,
+    #open-source,
+    #demo {
+        padding-top: 128px;
+        padding-bottom: 128px;
+    }
+
+    .cards {
+        margin-bottom: 0;
+    }
+
+    #demo-bg {
+        max-width: 600px;
     }
 }
