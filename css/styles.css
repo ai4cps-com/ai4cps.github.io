@@ -1219,7 +1219,7 @@ form button {
     padding: 16px 32px;
     width: 100%;
     font-family: var(--font-primary);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0%;
@@ -1467,7 +1467,7 @@ form button svg {
     display: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     .container {
         padding: 0 80px;
     }
@@ -1573,6 +1573,10 @@ form button svg {
         width: 30%;
     }
 
+    #product .cards__wrap--1 {
+        margin-bottom: 24px;
+    }
+
     #product .cards__wrap--1,
     #product .cards__wrap--3 {
         display: flex;
@@ -1618,13 +1622,18 @@ form button svg {
         width: 60%;
     }
 
+    #auto-card,
+    #opt-card {
+        margin-top: 4px;
+    }
+
     #diagnosis-card br {
         display: block;
     }
 
     #cases #scheduling-card,
     #cases #opt-card {
-        width: 36%;
+        width: 37%;
     }
 
     #cases #diagnosis-card {
@@ -1649,6 +1658,15 @@ form button svg {
         line-height: 26px;
     }
 
+    #auto-card {
+        align-self: stretch;
+    }
+
+    #auto-card .card__content-wrap,
+    #auto-card .card__content {
+        height: 100%;
+    }
+
     #scheduling-card .card__content {
         display: flex;
         flex-direction: column;
@@ -1668,10 +1686,6 @@ form button svg {
         max-width: 80px;
         top: 30px;
         right: 30px;
-    }
-
-    #auto-card .card__content {
-        height: 250px;
     }
 
     #diagnosis-card .card__content {
@@ -1744,6 +1758,7 @@ form button svg {
     .demo__wrap {
         display: flex;
         justify-content: space-between;
+        padding: 0 32px;
     }
 
     .demo__wrap .about {
@@ -1931,6 +1946,10 @@ form button svg {
         line-height: 24px;
     }
 
+    form {
+        padding: 40px;
+    }
+
     form label {
         font-size: 12px;
     }
@@ -2040,5 +2059,12 @@ form button svg {
 
     #demo-bg {
         max-width: 600px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .links ul {
+        display: flex;
+        gap: 32px;
     }
 }
