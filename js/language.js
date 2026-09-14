@@ -84,7 +84,7 @@ const translations = {
         integrationDesc: "Analysis of your systems, integration of relevant data sources, development of tailored AI models, and implementation into existing IT and OT infrastructures.",
         deployment: "Deployment of AI4CPS",
         timeline2: "<1 MONTH",
-        deploymentDesc: "Our proprietary AI software AI4CPS is seamlessly integrated into your industrial environment and supports operational decision-making.",
+        deploymentDesc: "Our proprietary AI4CPS software platform is seamlessly integrated into your industrial environment and supports operational decision-making.",
         operatingModel: "Operating Model",
         timeline3: "LONG-TERM PARTNERSHIP",
         operatingModelDesc: "After successful implementation, fees are based solely on a transparent software license — predictable, scalable, and efficient in the long term.",
