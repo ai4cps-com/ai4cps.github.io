@@ -218,7 +218,7 @@ const translations = {
         integrationDesc: "Analyse Ihrer Systeme, Integration relevanter Datenquellen, Entwicklung maßgeschneiderter KI-Modelle und Implementierung in bestehende IT- und OT-Infrastrukturen.",
         deployment: "Bereitstellung von AI4CPS",
         timeline2: "<1 MONAT",
-        deploymentDesc: "Unsere proprietäre KI-Software AI4CPS wird nahtlos in Ihre industrielle Umgebung integriert und unterstützt die betriebliche Entscheidungsfindung.",
+        deploymentDesc: "Unsere proprietäre AI4CPS-Softwareplattform lässt sich nahtlos in Ihre industrielle Umgebung integrieren und unterstützt Sie bei operativen Entscheidungen.",
         operatingModel: "Betriebsmodell",
         timeline3: "LANGFRISTIGE PARTNERSCHAFT",
         operatingModelDesc: "Nach erfolgreicher Implementierung basieren die Gebühren ausschließlich auf einer transparenten Softwarelizenz — vorhersehbar, skalierbar und langfristig effizient.",
