@@ -133,7 +133,7 @@ header.desktop {
 }
 
 .chip .chip__text {
-    padding-top: 2px;
+    padding-top: 3px;
     padding-right: 10px;
     padding-bottom: 2px;
     padding-left: 10px;
@@ -159,39 +159,44 @@ header.desktop {
 }
 
 .mobile-menu {
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: 0;
     right: 0;
-    bottom: 0;
     width: 100vw;
-    height: 0;
+    height: 100vh;
     overflow: hidden;
     z-index: 10;
-    background: radial-gradient(186.91% 69.49% at 118.21% 100%, #141050 0%, #020617 100%);
+
+    background: radial-gradient(186.91% 69.49% at 118.21% 100%,
+            #141050 0%,
+            #020617 100%);
+
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
 }
 
 .mobile-menu.active {
-    height: 100vh;
+    transform: translateX(0);
 }
 
 .mobile-menu header {
     margin-bottom: 60px;
+    border-bottom: 1px solid #FFFFFF33;
+    background: #020617;
 }
 
 .mobile-menu.active header {
-    background-color: transparent;
     box-shadow: none;
     box-shadow: 0px 10px 50.9px 0px #10182766;
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid #FFFFFF33
 }
 
 .mobile-menu.active .hamb-btn-wrap svg {
-    display: none;
+    /* display: none; */
+    opacity: 0;
 }
 
-.mobile-menu.active header #xBtxn svg {
+.mobile-menu.active header #xBtn svg {
     display: block;
 }
 
@@ -253,9 +258,22 @@ header.desktop {
 }
 
 .hero__chip {
-    padding: 8px 16px;
-    background-color: #333;
+    padding: 4px 8px;
+    background-color: rgba(2, 6, 23, .6);
     box-shadow: 0px 5px 12.3px 0px #B0F4FF08;
+
+}
+
+.hero__chip span {
+    font-family: Geist Mono;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+
 }
 
 .hero__chip-wrap {
@@ -287,6 +305,7 @@ header.desktop {
 }
 
 .hero__title-one {
+    margin-bottom: 8px;
     font-family: var(--font-primary);
     font-weight: 600;
     font-size: 32px;
@@ -353,7 +372,7 @@ header.desktop {
     font-family: var(--font-primary);
     font-weight: 400;
     font-size: 9px;
-    line-height: 100%;
+    line-height: 165%;
     letter-spacing: 0px;
     vertical-align: middle;
     color: #fff;
@@ -378,6 +397,10 @@ header.desktop {
 
 #demo {
     overflow: hidden;
+}
+
+#demo .title-desc br {
+    display: none;
 }
 
 #demo-bg {
@@ -711,6 +734,11 @@ header.desktop {
     bottom: 20px;
 }
 
+#scheduling-card span[data-i18n="aiSchedulingDescHighlight"] {
+    font-weight: bold;
+    color: #41CCBF;
+}
+
 #opt-card .card__icon-wrap {
     margin-bottom: 24px;
 }
@@ -722,6 +750,10 @@ header.desktop {
 #test {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+#test h2 {
+    text-align: center;
 }
 
 #test .chip {
@@ -932,6 +964,10 @@ header.desktop {
     text-align: center;
 }
 
+#team .title-desc br {
+    display: none;
+}
+
 #team .cards {
     gap: 16px;
 }
@@ -1007,6 +1043,7 @@ header.desktop {
 
 .team-desc {
     margin-top: 12px;
+    padding: 0 14px;
 }
 
 .team-desc svg {
@@ -1024,8 +1061,9 @@ header.desktop {
     color: #516072;
 }
 
-.team-descs span {
+.team-desc a {
     font-weight: bold;
+    color: #516072;
 }
 
 #demo {
@@ -1130,8 +1168,10 @@ form input[type="email"] {
     margin-bottom: 24px;
     padding: 16px 16px;
     background: #FFFFFF;
-    border: 1px solid #E2E8F0;
+    border: 2px solid #E2E8F0;
     border-radius: 8px;
+    font-size: 18px;
+    line-height: 100%;
 }
 
 .hero__ctas {
@@ -1338,6 +1378,10 @@ form button svg {
     margin-bottom: 64px;
 }
 
+#open-source .title-desc br {
+    display: none;
+}
+
 #open-source .cards {
     gap: 24px;
 }
@@ -1417,6 +1461,10 @@ form button svg {
     vertical-align: middle;
     text-transform: uppercase;
     color: #4F46E5;
+}
+
+#diagnosis-card br {
+    display: none;
 }
 
 @media (min-width: 1024px) {
@@ -1570,6 +1618,10 @@ form button svg {
         width: 60%;
     }
 
+    #diagnosis-card br {
+        display: block;
+    }
+
     #cases #scheduling-card,
     #cases #opt-card {
         width: 36%;
@@ -1595,11 +1647,6 @@ form button svg {
     #opt-card p {
         font-size: 16px;
         line-height: 26px;
-    }
-
-    #scheduling-card span[data-i18n="aiSchedulingDescHighlight"] {
-        font-weight: bold;
-        color: #41CCBF;
     }
 
     #scheduling-card .card__content {
@@ -1725,6 +1772,10 @@ form button svg {
 
     #demo .title-desc {
         margin-bottom: 40px;
+    }
+
+    #demo .title-desc br {
+        display: block;
     }
 
     .card--product h4 {
@@ -1960,9 +2011,17 @@ form button svg {
         padding-bottom: 64px;
     }
 
+    #team .title-desc br {
+        display: block;
+    }
+
     #open-source {
         padding-top: 64px;
         padding-bottom: 128px;
+    }
+
+    #open-source .title-desc br {
+        display: block;
     }
 
     #product,

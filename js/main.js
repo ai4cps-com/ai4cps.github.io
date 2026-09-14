@@ -6,12 +6,14 @@ const mobileMenuLinks = mobileMenu.getElementsByTagName('a');
 
 function openMenu() {
     mobileMenu.classList.add('active')
-    document.body.classList.add('lock');
+    // document.body.classList.add('lock');
 }
 
 function closeMenu() {
     mobileMenu.classList.remove('active')
-    document.body.classList.remove('lock');
+    // setTimeout(() => {
+    //     document.body.classList.remove('lock');
+    // }, 400)
 }
 
 function handleEsc(e) {

@@ -183,6 +183,10 @@ button:disabled {
     text-align: center;
 }
 
+input {
+    outline: none;
+}
+
 .btn--next {
     font-size: 20px;
 }
@@ -440,21 +444,4 @@ button:disabled {
 
 .u-none {
     display: none;
-}
-
-.tabs__navigation {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.tab {
-    width: 49%;
-}
-
-.tabs__content {
-    display: none;
-}
-
-.tabs__content.is-active {
-    display: block;
 }
