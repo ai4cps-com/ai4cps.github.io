@@ -308,7 +308,7 @@ header.desktop {
     margin-bottom: 8px;
     font-family: var(--font-primary);
     font-weight: 600;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 100%;
     letter-spacing: -1.5px;
     text-align: center;
@@ -320,7 +320,7 @@ header.desktop {
     margin-bottom: 20px;
     font-family: var(--font-primary);
     font-weight: 700;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 100%;
     letter-spacing: -1.5px;
     text-align: center;
@@ -1301,7 +1301,8 @@ form button svg {
     width: 45%;
 }
 
-.foot-wrap .social-link {
+.foot-wrap .social-link,
+.foot-wrap .social-link a {
     margin-bottom: 16px;
     font-family: var(--font-primary);
     font-weight: 400;
@@ -1827,7 +1828,8 @@ form button svg {
         border-right: 1px solid rgba(255, 255, 255, .3);
     }
 
-    .foot-wrap .social-link {
+    .foot-wrap .social-link,
+    .foot-wrap .social-link a {
         margin-bottom: 0;
     }
 

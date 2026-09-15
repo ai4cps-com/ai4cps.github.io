@@ -2,7 +2,7 @@
 
 const translations = {
     en: {
-        heroDescHtml: 'We bring advanced AI capabilities to complex systems across <span>manufacturing, logistics, process industries, aerospace</span>, and beyond.',
+        /* Nav */
         solutions: "Solutions",
         platform: "AI4CPS Platform",
         useCases: "Use Cases",
@@ -11,19 +11,23 @@ const translations = {
         openSource: "Open Source",
         requestDemo: "Request a Demo",
 
+        /* Contact */
         contactEmail: "contact@ai4cps.com",
         contactPhone: "+49 177 8717913",
 
+        /* Hero */
         industrialAI: "INDUSTRIAL AI",
         heroTitleLine1: "Artificial Intelligence for",
         heroTitleLine2: "Cyber-Physical Systems",
-        heroDesc: "We bring advanced AI capabilities to complex systems across <span>manufacturing, logistics,<br /> process industries, aerospace,</span> and beyond.",
+        heroDescHtml: 'We bring advanced AI capabilities to complex systems across <span>manufacturing, logistics,<br /> process industries, aerospace</span>, and beyond.',
         exploreSolutions: "Explore Solutions",
         heroFootPrefix: "Our key algorithmic solutions were developed within (K)ISS research project at",
         heroFootLink: "Helmut Schmidt University.",
 
+        /* Trust */
         supportedBy: "SUPPORTED BY & TRUSTED PARTNERS",
 
+        /* Capabilities */
         capabilities: "CAPABILITIES",
         aiForOps: "AI for Your Operations",
         opsScheduling: "Operations Scheduling",
@@ -40,6 +44,7 @@ const translations = {
         moreDescPrefix: "Access 30+ proven capabilities from our codebase—",
         moreDescHighlight: "<b>or get a tailored solution developed for your specific requirements.</b>",
 
+        /* Product */
         product: "PRODUCT",
         ai4cpsPlatform: "AI4CPS Platform",
         platformDesc: "A secure, on-premises platform combining advanced AI analysis, visualizations, dashboards, and LLM-powered interaction — with continuous and on-demand analysis of your operational data.",
@@ -47,11 +52,16 @@ const translations = {
         connectDataDesc: "Integrate sensor measurements, controller variables, business, and other relevant sources for advanced AI4CPS analysis.",
         integrateKnowledge: "Integrate your experts’ knowledge",
         integrateKnowledgeDesc: "Combine the experience and domain knowledge of your practitioners with operational data to provide richer context for AI analysis.",
+        turnData: "Turn data into system intelligence",
+        turnDataDesc: "Our advanced model system behavior and extract meaningful patterns and insights from diverse data sources.",
+        betterDecisions: "Make better operational decisions",
+        betterDecisionsDesc: "Get relevant, actionable insights to make faster, better-informed decisions about system operation and performance.",
 
+        /* Use cases */
         useCasesLabel: "USE CASES",
         provenSuccess: "Proven Success in Industrial AI",
         diagnosisSystem: "Diagnosis System",
-        diagnosisDesc: "Our software implements a sophisticated recomendation system for online analysis of system health and recomendation of system reconfiguration scenarios.",
+        diagnosisDesc: "Implemented a recomendation system in AI4CPS for<br />online analysis of system health and recomendation<br /> of system reconfiguration scenarios.",
         aerospace: "Aerospace",
         automation: "Automation",
         predictiveMaintenanceCase: "Predictive Maintenance",
@@ -64,18 +74,20 @@ const translations = {
         paramOptimizationCase: "Parameter Optimization",
         paramOptimizationCaseDesc: "Data-driven parameter optimization <b>improved operational KPIs and supported smarter equipment investments, reducing unnecessary costs.</b>",
 
+        /* Testimonials */
         testimonials: "TESTIMONIALS",
         trustedBy: "Trusted by Industry Leaders",
-        airbusTestimonial: "\"Using AI4CPS, we enhanced diagnostics across our space systems, achieving measurable improvements in safety and reliability.\"",
+        airbusTestimonial: '"Using <b>AI4CPS</b>, we enhanced diagnostics across our space systems, achieving measurable improvements in safety and reliability."',
         maxMustermann: "Max Mustermann",
         projectLeadAirbus: "Project Lead, Airbus DC",
-        ebzTestimonial: "\"With AI4CPS, we gained real-time insight into production KPIs and automated detection of operational issues.\"",
+        ebzTestimonial: '"With AI4CPS, we gained real-time insight into production KPIs and automated detection of operational issues."',
         thomasWiebe: "Thomas Wiebe",
         productionLeadEbz: "Production Lead, eBZ GmbH",
-        standDigitalTestimonial: "\"AI4CPS helped us modernize our infrastructure with a scalable Kubernetes-based architecture and reliable monitoring and data management.\"",
+        standDigitalTestimonial: '"AI4CPS helped us modernize our infrastructure with a scalable Kubernetes-based architecture and reliable monitoring and data management."',
         zarkoMilovanovic: "Žarko Milovanović",
         ceoStandDigital: "CEO, Stand Digital",
 
+        /* How we work */
         howWeWork: "how we work",
         strategicApproach: "Our Strategic Approach",
         fromDataToIntel: "From industrial data to operational intelligence",
@@ -89,9 +101,10 @@ const translations = {
         timeline3: "LONG-TERM PARTNERSHIP",
         operatingModelDesc: "After successful implementation, fees are based solely on a transparent software license — predictable, scalable, and efficient in the long term.",
 
+        /* Team */
         ourTeam: "our team",
         peopleBehind: "The People Behind AI4CPS",
-        teamDesc: "The people behind AI4CPS, combining expertise in AI, industrial systems, and software engineering.",
+        teamDesc: "The people behind AI4CPS, combining expertise in AI, industrial<br />systems, and software engineering.",
         milosName: "Miloš Milovanović",
         milosRole: "Founder & Managing Director",
         milosDesc: "Drives partnerships and market strategy, connecting industrial challenges with practical AI solutions.",
@@ -102,16 +115,18 @@ const translations = {
         teamStrongHighlight: "Helmut Schmidt University",
         teamStrongSuffix: " and other leading industrial research institutions.",
 
+        /* Open source */
         openSourceLabel: "OPEN SOURCE",
         advancingEcosystem: "Advancing the Ecosystem",
-        openSourceDesc: "We actively contribute to open-source AI for CPS and collaborate with research institutions to develop and advance state-of-the-art algorithms.",
+        openSourceDesc: "We actively contribute to open-source AI for CPS and collaborate with research institutions to<br /> develop and advance state-of-the-art algorithms.",
         ml4cpsDesc: "A Python package for learning and analysing hybrid dynamical systems, with a focus on cyber-physical systems.",
         ai4cpsOssDesc: "A Python framework for building dashboard applications and AI applications for cyber-physical systems",
         viewOnGithub: "VIEW ON GITHUB",
 
+        /* Demo */
         requestDemoLabel: "request a demo",
-        readyForDemo: "Ready for a 20-minute demo?",
-        demoDesc: "Discover how AI4CPS can transform your industrial operations. Our experts will show you real-world applications tailored to your specific industry challenges.",
+        readyForDemo: "Ready for a 20-minute <br />demo?",
+        demoDesc: "Discover how <span>AI4CPS</span> can transform <br />your industrial operations. Our experts will show <br />you real-world applications tailored to your specific <br />industry challenges.",
         liveWalkthrough: "Live platform walkthrough",
         customROI: "Custom ROI analysis",
         technicalQA: "Technical Q&A with engineers",
@@ -126,6 +141,7 @@ const translations = {
         submitDemo: "Request a Demo",
         contactWithin24: "We will contact you within 24 hours to schedule the demo.",
 
+        /* Footer */
         footerDesc: "Artificial Intelligence for Cyber-Physical Systems",
         getInTouch: "GET IN TOUCH",
         linkedin: "LinkedIn",
@@ -136,7 +152,7 @@ const translations = {
     },
 
     de: {
-        heroDescHtml: 'Wir bringen fortschrittliche KI-Fähigkeiten in komplexe Systeme in den Bereichen <span>Fertigung, Logistik, Prozessindustrie, Luft- und Raumfahrt</span> und darüber hinaus.',
+        /* Nav */
         solutions: "Lösungen",
         platform: "AI4CPS Plattform",
         useCases: "Anwendungsfälle",
@@ -145,19 +161,23 @@ const translations = {
         openSource: "Open Source",
         requestDemo: "Demo anfordern",
 
+        /* Contact */
         contactEmail: "contact@ai4cps.com",
         contactPhone: "+49 177 8717913",
 
+        /* Hero */
         industrialAI: "INDUSTRIELLE KI",
         heroTitleLine1: "Künstliche Intelligenz für",
         heroTitleLine2: "Cyber-Physische Systeme",
-        heroDesc: "Wir bringen fortschrittliche KI-Fähigkeiten in komplexe Systeme in den Bereichen Fertigung, Logistik, Prozessindustrie, Luft- und Raumfahrt und darüber hinaus.",
+        heroDescHtml: 'Wir bringen fortschrittliche KI-Fähigkeiten in komplexe Systeme in den Bereichen <span>Fertigung, Logistik,<br /> Prozessindustrie, Luft- und Raumfahrt</span> und darüber hinaus.',
         exploreSolutions: "Lösungen entdecken",
         heroFootPrefix: "Unsere wichtigsten algorithmischen Lösungen wurden im Rahmen des (K)ISS-Forschungsprojekts an der",
         heroFootLink: "Helmut-Schmidt-Universität.",
 
+        /* Trust */
         supportedBy: "UNTERSTÜTZT VON & VERTRAUTEN PARTNERN",
 
+        /* Capabilities */
         capabilities: "FÄHIGKEITEN",
         aiForOps: "KI für Ihren Betrieb",
         opsScheduling: "Betriebsplanung",
@@ -174,6 +194,7 @@ const translations = {
         moreDescPrefix: "Greifen Sie auf über 30 bewährte Fähigkeiten aus unserer Codebasis zu—",
         moreDescHighlight: "<b>oder erhalten Sie eine maßgeschneiderte Lösung für Ihre spezifischen Anforderungen.</b>",
 
+        /* Product */
         product: "PRODUKT",
         ai4cpsPlatform: "AI4CPS Plattform",
         platformDesc: "Eine sichere On-Premises-Plattform, die fortschrittliche KI-Analyse, Visualisierungen, Dashboards und LLM-gestützte Interaktion kombiniert — mit kontinuierlicher und bedarfsgesteuerter Analyse Ihrer Betriebsdaten.",
@@ -181,35 +202,42 @@ const translations = {
         connectDataDesc: "Integrieren Sie Sensormessungen, Controller-Variablen, Geschäftsdaten und andere relevante Quellen für fortschrittliche AI4CPS-Analysen.",
         integrateKnowledge: "Integrieren Sie das Wissen Ihrer Experten",
         integrateKnowledgeDesc: "Kombinieren Sie die Erfahrung und das Fachwissen Ihrer Praktiker mit Betriebsdaten, um einen reicheren Kontext für die KI-Analyse zu schaffen.",
+        turnData: "Verwandeln Sie Daten in Systemintelligenz",
+        turnDataDesc: "Unsere fortschrittlichen Modelle erfassen Systemverhalten und extrahieren aussagekräftige Muster und Erkenntnisse aus verschiedenen Datenquellen.",
+        betterDecisions: "Treffen Sie bessere operative Entscheidungen",
+        betterDecisionsDesc: "Erhalten Sie relevante, umsetzbare Erkenntnisse, um schnellere und fundiertere Entscheidungen über Systembetrieb und -leistung zu treffen.",
 
+        /* Use cases */
         useCasesLabel: "ANWENDUNGSFÄLLE",
         provenSuccess: "Bewährter Erfolg in der industriellen KI",
         diagnosisSystem: "Diagnosesystem",
-        diagnosisDesc: "Unsere Software implementiert ein hochentwickeltes Empfehlungssystem zur Online-Analyse des Systemzustands und zur Empfehlung von Szenarien für die Neukonfiguration des Systems.",
+        diagnosisDesc: "Implementierung eines Empfehlungssystems in AI4CPS zur<br />Online-Analyse der Systemgesundheit und Empfehlung<br /> von Systemneukonfigurationsszenarien.",
         aerospace: "Luft- und Raumfahrt",
         automation: "Automatisierung",
         predictiveMaintenanceCase: "Vorausschauende Wartung",
-        predictiveMaintenanceCaseDesc: "Unsere betrieblichen Erkenntnisse <b>ermöglichten eine intelligentere Ressourcennutzung und verlängerten die Wartungsintervalle um bis zu 50%.</b>",
+        predictiveMaintenanceCaseDesc: "Unsere betrieblichen Erkenntnisse ermöglichten eine intelligentere Ressourcennutzung und <b>verlängerten die Wartungsintervalle um bis zu 50%.</b>",
         aiScheduling: "KI-basierte Planung",
         aiSchedulingDescPrefix: "Steigerung des Produktionsdurchsatzes um ",
         aiSchedulingDescHighlight: "8,3%",
         aiSchedulingDescSuffix: " durch KI-gesteuerte Planung der Aktionen industrieller Roboter und Optimierung basierend auf Artikelkontexten.",
         manufacturing: "Fertigung",
         paramOptimizationCase: "Parameteroptimierung",
-        paramOptimizationCaseDesc: "Datengesteuerte Parameteroptimierung verbesserte betriebliche KPIs und unterstützte intelligentere Geräteinvestitionen, wodurch unnötige Kosten reduziert wurden.",
+        paramOptimizationCaseDesc: "Datengesteuerte Parameteroptimierung <b>verbesserte betriebliche KPIs und unterstützte intelligentere Geräteinvestitionen, wodurch unnötige Kosten reduziert wurden.</b>",
 
+        /* Testimonials */
         testimonials: "REFERENZEN",
         trustedBy: "Vertraut von Branchenführern",
-        airbusTestimonial: "\"Mit AI4CPS haben wir die Diagnose in unseren Raumfahrtsystemen verbessert und messbare Verbesserungen bei Sicherheit und Zuverlässigkeit erzielt.\"",
+        airbusTestimonial: '"Mit <b>AI4CPS</b> haben wir die Diagnose in unseren Raumfahrtsystemen verbessert und messbare Verbesserungen bei Sicherheit und Zuverlässigkeit erzielt."',
         maxMustermann: "Max Mustermann",
         projectLeadAirbus: "Projektleiter, Airbus DC",
-        ebzTestimonial: "\"Mit AI4CPS haben wir Echtzeiteinblicke in Produktions-KPIs und eine automatisierte Erkennung betrieblicher Probleme erhalten.\"",
+        ebzTestimonial: '"Mit AI4CPS haben wir Echtzeiteinblicke in Produktions-KPIs und eine automatisierte Erkennung betrieblicher Probleme erhalten."',
         thomasWiebe: "Thomas Wiebe",
         productionLeadEbz: "Produktionsleiter, eBZ GmbH",
-        standDigitalTestimonial: "\"AI4CPS hat uns geholfen, unsere Infrastruktur mit einer skalierbaren Kubernetes-basierten Architektur und zuverlässiger Überwachung und Datenverwaltung zu modernisieren.\"",
+        standDigitalTestimonial: '"AI4CPS hat uns geholfen, unsere Infrastruktur mit einer skalierbaren Kubernetes-basierten Architektur und zuverlässiger Überwachung und Datenverwaltung zu modernisieren."',
         zarkoMilovanovic: "Žarko Milovanović",
         ceoStandDigital: "Geschäftsführer, Stand Digital",
 
+        /* How we work */
         howWeWork: "wie wir arbeiten",
         strategicApproach: "Unser strategischer Ansatz",
         fromDataToIntel: "Von industriellen Daten zur operativen Intelligenz",
@@ -223,9 +251,10 @@ const translations = {
         timeline3: "LANGFRISTIGE PARTNERSCHAFT",
         operatingModelDesc: "Nach erfolgreicher Implementierung basieren die Gebühren ausschließlich auf einer transparenten Softwarelizenz — vorhersehbar, skalierbar und langfristig effizient.",
 
+        /* Team */
         ourTeam: "unser team",
         peopleBehind: "Die Menschen hinter AI4CPS",
-        teamDesc: "Die Menschen hinter AI4CPS, die Expertise in KI, industriellen Systemen und Softwareentwicklung vereinen.",
+        teamDesc: "Die Menschen hinter AI4CPS, die Expertise in KI, industriellen<br />Systemen und Softwareentwicklung vereinen.",
         milosName: "Miloš Milovanović",
         milosRole: "Gründer & Geschäftsführer",
         milosDesc: "Treibt Partnerschaften und Marktstrategie voran und verbindet industrielle Herausforderungen mit praktischen KI-Lösungen.",
@@ -236,16 +265,18 @@ const translations = {
         teamStrongHighlight: "Helmut-Schmidt-Universität",
         teamStrongSuffix: " und anderen führenden industriellen Forschungseinrichtungen.",
 
+        /* Open source */
         openSourceLabel: "OPEN SOURCE",
         advancingEcosystem: "Das Ökosystem voranbringen",
-        openSourceDesc: "Wir tragen aktiv zu Open-Source-KI für CPS bei und arbeiten mit Forschungseinrichtungen zusammen, um modernste Algorithmen zu entwickeln und voranzutreiben.",
+        openSourceDesc: "Wir tragen aktiv zu Open-Source-KI für CPS bei und arbeiten mit Forschungseinrichtungen zusammen, um modernste Algorithmen zu<br /> entwickeln und voranzutreiben.",
         ml4cpsDesc: "Ein Python-Paket zum Lernen und Analysieren hybrider dynamischer Systeme mit Fokus auf cyber-physische Systeme.",
         ai4cpsOssDesc: "Ein Python-Framework zum Erstellen von Dashboard-Anwendungen und KI-Anwendungen für cyber-physische Systeme",
         viewOnGithub: "AUF GITHUB ANSEHEN",
 
+        /* Demo */
         requestDemoLabel: "demo anfordern",
-        readyForDemo: "Bereit für eine 20-minütige Demo?",
-        demoDesc: "Entdecken Sie, wie AI4CPS Ihre industriellen Abläufe transformieren kann. Unsere Experten zeigen Ihnen reale Anwendungen, die auf Ihre spezifischen Branchenherausforderungen zugeschnitten sind.",
+        readyForDemo: "Bereit für eine 20-minütige <br />Demo?",
+        demoDesc: "Entdecken Sie, wie <span>AI4CPS</span> Ihre industriellen Abläufe <br />transformieren kann. Unsere Experten zeigen <br />Ihnen reale Anwendungen, die auf Ihre spezifischen <br />Branchenherausforderungen zugeschnitten sind.",
         liveWalkthrough: "Live-Plattform-Vorführung",
         customROI: "Individuelle ROI-Analyse",
         technicalQA: "Technische Fragen & Antworten mit Ingenieuren",
@@ -260,6 +291,7 @@ const translations = {
         submitDemo: "Demo anfordern",
         contactWithin24: "Wir werden Sie innerhalb von 24 Stunden kontaktieren, um die Demo zu vereinbaren.",
 
+        /* Footer */
         footerDesc: "Künstliche Intelligenz für Cyber-Physische Systeme",
         getInTouch: "KONTAKT AUFNEHMEN",
         linkedin: "LinkedIn",
@@ -293,15 +325,16 @@ function updateLangIndicators(lang) {
 /* Text replacement                                                    */
 /* ------------------------------------------------------------------ */
 
-function updateTextNodes(el, newText) {
-    const textNodes = Array.from(el.childNodes).filter(n => n.nodeType === Node.TEXT_NODE);
-    if (textNodes.length === 0) {
-        el.insertBefore(document.createTextNode(newText), el.firstChild);
-        return;
-    }
-    textNodes[0].innerHTML = newText;
-    for (let i = 1; i < textNodes.length; i++) {
-        textNodes[i].innerHTML = '';
+/**
+ * Apply a translation to an element. If the element has child elements
+ * (spans, <b>, <br>, <a>), the whole innerHTML is replaced so any inline
+ * markup in the translation string is rendered.
+ */
+function applyTranslation(el, value) {
+    if (el.children.length > 0) {
+        el.innerHTML = value;
+    } else {
+        el.textContent = value;
     }
 }
 
@@ -309,25 +342,21 @@ function setLanguage(lang) {
     const t = translations[lang];
     if (!t) return;
 
+    // Plain text / mixed inline content via data-i18n
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
         if (t[key] === undefined) return;
-
-        if (el.children.length > 0 && el.tagName !== 'INPUT' && el.tagName !== 'TEXTAREA') {
-            updateTextNodes(el, t[key]);
-        } else {
-            el.textContent = t[key];
-        }
+        applyTranslation(el, t[key]);
     });
 
-    // ✅ NEW: innerHTML-based translations for elements with inline markup
+    // Explicitly-HTML translations
     document.querySelectorAll('[data-i18n-html]').forEach(el => {
         const key = el.getAttribute('data-i18n-html');
-        if (t[key] !== undefined) {
-            el.innerHTML = t[key];
-        }
+        if (t[key] === undefined) return;
+        el.innerHTML = t[key];
     });
 
+    // Placeholders
     document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
         const key = el.getAttribute('data-i18n-placeholder');
         if (t[key] !== undefined) {
@@ -363,6 +392,7 @@ function initLanguageSwitcher() {
         });
     });
 
+    // Ensure the initial language indicator is correct — nothing else.
     updateLangIndicators('en');
 }
 
