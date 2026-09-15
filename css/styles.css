@@ -1303,7 +1303,6 @@ form button svg {
 
 .foot-wrap .social-link,
 .foot-wrap .social-link a {
-    margin-bottom: 16px;
     font-family: var(--font-primary);
     font-weight: 400;
     font-size: 14px;
@@ -1311,6 +1310,10 @@ form button svg {
     letter-spacing: 0px;
     vertical-align: middle;
     color: #B9C8DE;
+}
+
+.foot-wrap .social-link {
+    margin-bottom: 16px;
 }
 
 .copyright-wrap {
