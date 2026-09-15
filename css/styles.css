@@ -395,6 +395,10 @@ header.desktop {
     text-decoration: underline;
 }
 
+.hero__foot-wrap br {
+    display: none;
+}
+
 #demo {
     overflow: hidden;
 }
