@@ -1063,27 +1063,27 @@
                         </div>
                     </div>
                 </div>
-                <form>
+                <form action="https://formspree.io/f/mdalvogy" method="POST">
                     <h3 data-i18n="buildSolution">Let's build your solution</h3>
                     <p class="desc" data-i18n="fillInfo">Fill in the information below to get custom access parameters.
                     </p>
                     <div class="form-group">
                         <div class="form-box">
                             <label for="company-name" data-i18n="companyName">Company name</label>
-                            <input type="text" id="company-name" />
+                            <input type="text" id="company-name" required />
                         </div>
                         <div class="form-box">
                             <label for="email" data-i18n="emailAddress">Email address</label>
-                            <input type="email" id="email" autocomplete="off" />
+                            <input type="email" id="email" autocomplete="off" required />
                         </div>
                     </div>
                     <div class="form-box">
                         <label for="msg" data-i18n="message">Message</label>
-                        <textarea id="msg" data-i18n-placeholder="messagePlaceholder"
+                        <textarea id="msg" data-i18n-placeholder="messagePlaceholder" required
                             placeholder="Tell us about your specific use case..."></textarea>
                     </div>
                     <div class="form-box form-box-checkbox">
-                        <input type="checkbox" id="privacy" />
+                        <input type="checkbox" id="privacy" required />
                         <label for="privacy">
                             <span data-i18n="privacyPolicyPrefix">I have read the </span><a href="#"
                                 data-i18n="privacyPolicyLink">Privacy Policy.</a>
