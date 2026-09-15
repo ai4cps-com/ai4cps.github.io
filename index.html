@@ -1105,20 +1105,20 @@
                     <div class="form-group">
                         <div class="form-box">
                             <label for="company-name" data-i18n="companyName">Company name</label>
-                            <input type="text" id="company-name" required />
+                            <input type="text" id="company-name" name="company" required />
                         </div>
                         <div class="form-box">
                             <label for="email" data-i18n="emailAddress">Email address</label>
-                            <input type="email" id="email" autocomplete="off" required />
+                            <input type="email" id="email" name="email" autocomplete="off" required />
                         </div>
                     </div>
                     <div class="form-box">
                         <label for="msg" data-i18n="message">Message</label>
                         <textarea id="msg" data-i18n-placeholder="messagePlaceholder" required
-                            placeholder="Tell us about your specific use case..."></textarea>
+                            placeholder="Tell us about your specific use case..." name="message"></textarea>
                     </div>
                     <div class="form-box form-box-checkbox">
-                        <input type="checkbox" id="privacy" required />
+                        <input type="checkbox" id="privacy" name="privacy" required />
                         <label for="privacy">
                             <span data-i18n="privacyPolicyPrefix">I have read the </span><a href="./privacy.html"
                                 data-i18n="privacyPolicyLink">Privacy Policy.</a>
