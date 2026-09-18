@@ -148,7 +148,10 @@ const translations = {
         xing: "XING",
         copyright: "© 2026 AI4CPS BV. All rights reserved.",
         legalNotice: "Legal Notice",
-        privacyPolicyFooter: "Privacy Policy"
+        privacyPolicyFooter: "Privacy Policy",
+        legalInfo: "LEGAL INFORMATION",
+        kvk: "KVK-nummer 42158423",
+        vat: "VAT Number: NL869971025B01"
     },
 
     de: {
@@ -227,7 +230,7 @@ const translations = {
         /* Testimonials */
         testimonials: "REFERENZEN",
         trustedBy: "Vertraut von Branchenführern",
-        airbusTestimonial: '"Mit <b>AI4CPS</b> haben wir die Diagnose in unseren Raumfahrtsystemen verbessert und messbare Verbesserungen bei Sicherheit und Zuverlässigkeit erzielt."',
+        airbusTestimonial: '„Das (K)ISS-Projekt hat unsere Raumfahrtdienstleistungen im Bereich der Systemdiagnose und Rekonfiguration maßgeblich vorangebracht, wobei sich AI4CPS als ein vielversprechendes Spin-off erweist, um diese Fähigkeiten erfolgreich in die breitere industrielle Anwendung zu überführen.“',
         maxMustermann: "Max Mustermann",
         projectLeadAirbus: "Projektleiter, Airbus DC",
         ebzTestimonial: '"Mit AI4CPS haben wir Echtzeiteinblicke in Produktions-KPIs und eine automatisierte Erkennung betrieblicher Probleme erhalten."',
@@ -298,7 +301,10 @@ const translations = {
         xing: "XING",
         copyright: "© 2026 AI4CPS BV. Alle Rechte vorbehalten.",
         legalNotice: "Impressum",
-        privacyPolicyFooter: "Datenschutzrichtlinie"
+        privacyPolicyFooter: "Datenschutzrichtlinie",
+        legalInfo: "RECHTLICHE HINWEISE",
+        kvk: "Handelsregisternummer: 42158423",
+        vat: "Umsatzsteuer-Identifikationsnummer: NL869971025B01"
     }
 };
 
