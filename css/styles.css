@@ -43,6 +43,10 @@ section {
     padding: 60px 0;
 }
 
+p {
+    text-wrap: balance;
+}
+
 .container {
     padding: 0 16px;
     margin: auto;
@@ -300,7 +304,7 @@ header.desktop {
 .hero__content {
     position: relative;
     z-index: 10;
-    padding-top: 80px;
+    padding-top: 60px;
     height: var(--hero-mobile-height);
     text-align: center;
 }

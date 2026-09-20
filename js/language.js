@@ -59,7 +59,7 @@ const translations = {
 
         /* Use cases */
         useCasesLabel: "USE CASES",
-        provenSuccess: "Proven Success in Industrial AI",
+        provenSuccess: "Proven Success in Industry",
         diagnosisSystem: "Diagnosis System",
         diagnosisDesc: "Implemented a recomendation system in AI4CPS for<br />online analysis of system health and recomendation<br /> of system reconfiguration scenarios.",
         aerospace: "Aerospace",
@@ -212,7 +212,7 @@ const translations = {
 
         /* Use cases */
         useCasesLabel: "ANWENDUNGSFÄLLE",
-        provenSuccess: "Bewährter Erfolg in der industriellen KI",
+        provenSuccess: "Nachgewiesener Erfolg in der Industrie",
         diagnosisSystem: "Diagnosesystem",
         diagnosisDesc: "Implementierung eines Empfehlungssystems in AI4CPS zur<br />Online-Analyse der Systemgesundheit und Empfehlung<br /> von Systemneukonfigurationsszenarien.",
         aerospace: "Luft- und Raumfahrt",
