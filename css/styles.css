@@ -173,7 +173,8 @@ header.desktop {
     right: 0;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    padding-bottom: 24x;
+    overflow: scroll;
     z-index: 10;
 
     background: radial-gradient(186.91% 69.49% at 118.21% 100%,
