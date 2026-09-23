@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --default-color-scheme: light;
+
+    --font-primary: "Geist", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+    --font-size--default: 16px;
+
+    --bg-color-primary: #F7F8FB;
+
+    --color-primary: #4770B4;
+    --color-secondary: #FDC971;
+
+    --hero-mobile-height: 560px;
+    --hero-desktop-height: 680px;
+
+    /* Breakpoints */
+    --bp--base: 0px;
+    --bp--xs: 300px;
+    --bp--sm: 720px;
+    --bp--md: 1024px;
+    --bp--lg: 1440px;
+    --bp--xl: 1920px;
+    --bg--4k: 4000px;
+
+    /** Other */
+    --py-header: 16px;
+    --px-container: 16px;
+    --logo--max-width: 125px;
+}
+
+* {
+    box-sizing: border-box;
+    text-wrap: balance;
+}
+
+html {
+    color-scheme: var(--default-color-scheme);
+    position: relative;
+    line-height: 1;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-primary);
+    background-color: var(--bg-color-primary);
+}
+
+body.lock {
+    overflow: hidden;
+    touch-action: none;
+}
+
+header {
+    padding-top: var(--py-header);
+    padding-bottom: var(--py-header);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+svg {
+    min-width: 20px;
+}
+
+p,
+a,
+span {
+    font-family: var(--font-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-secondary, --font-primary);
+}
+
+.container {
+    padding-left: var(--px-container);
+    padding-right: var(--px-container);
+    margin: auto;
+}
+
+.logo {
+    max-width: var(--logo--max-width);
+}
